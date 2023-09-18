@@ -11,7 +11,7 @@ int main()
     fflush(stdout);		/* stdout only flushes automatically on \n */
     int c;
     int charNum = 0;
-    char w[20];
+    char w[5];
     while ((c = getchar()) == '\n'); /* ignore newlines */
     if (c == EOF)		     /* terminate on end-of-file */
       goto done;
